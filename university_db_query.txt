@@ -25,7 +25,7 @@ RISPOSTA:
 
 SELECT *
 FROM `students`
-WHERE YEAR(CURDATE()) - YEAR(`date_of_birth`) >= 30;
+WHERE YEAR(CURDATE()) - YEAR(`date_of_birth`) > 30;
 
 -------------------------------------------------------------------------------------------------------------------
 
